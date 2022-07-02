@@ -96,24 +96,27 @@ a {
 <span class="intro">
 <table>
 <tr>
-	<td class="krieg">facts from krieg are salmon.</td>
-	<td class="win">facts from win are teal.</td>
+	<td class="nature">facts about flora, fauna, nature and natural phenomena are green. (<span id="naturecount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="space">facts about space are dead gold. (<span id="spacecount"><noscript>JS disabled!</noscript></span>)</td>
+
 </tr>
 <tr>
-	<td class="pan">facts from pan are gunmetal cobalt.</td>
-	<td class="jodi">facts from jodi are cyan.</td>
+	<td class="world">facts about humanity, history and the world are fuschia. (<span id="worldcount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="body">facts about medicine, chemicals and the human body are blue. (<span id="bodycount"><noscript>JS disabled!</noscript></span>)</td>
+
+
 </tr>
 <tr>
-	<td class="space">facts about space are dead gold.</td>
-	<td class="nature">facts about flora, fauna, nature and natural phenomena are green.</td>
+	<td class="trivia">random, trivial facts about humanity and the world are orange. (<span id="triviacount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="flw">cool or notable 'famous last words' are indigo. (<span id="flwcount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
 <tr>
-	<td class="body">facts about medicine, chemicals and the human body are blue.</td>
-	<td class="world">facts about humanity, history and the world are fuschia.</td>
+	<td class="win">facts from win are teal. (<span id="wincount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="jodi">facts from jodi are cyan. (<span id="jodicount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
 <tr>
-	<td class="trivia">random, trivial facts about humanity and the world are orange.</td>
-	<td class="flw">cool or notable 'famous last words' are indigo.</td>
+	<td class="pan">facts from pan are gunmetal cobalt. (<span id="pancount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="krieg">facts from krieg are salmon. (<span id="kriegcount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
 </table>
 </span>
@@ -260,6 +263,16 @@ a {
 </center>
 <script>
 document.getElementById("factscount").innerHTML = document.getElementsByClassName("fact").length
+document.getElementById("naturecount").innerHTML = document.getElementsByClassName("nature").length
+document.getElementById("spacecount").innerHTML = document.getElementsByClassName("space").length
+document.getElementById("worldcount").innerHTML = document.getElementsByClassName("world").length
+document.getElementById("bodycount").innerHTML = document.getElementsByClassName("body").length
+document.getElementById("triviacount").innerHTML = document.getElementsByClassName("trivia").length
+document.getElementById("flwcount").innerHTML = document.getElementsByClassName("flw").length
+document.getElementById("wincount").innerHTML = document.getElementsByClassName("win").length
+document.getElementById("jodicount").innerHTML = document.getElementsByClassName("jodi").length
+document.getElementById("pancount").innerHTML = document.getElementsByClassName("pan").length
+document.getElementById("kriegcount").innerHTML = document.getElementsByClassName("krieg").length
 </script>
 </body>
 <!--
