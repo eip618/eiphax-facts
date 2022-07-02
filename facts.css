@@ -1,0 +1,101 @@
+table {
+  font-size: medium;
+}
+td {
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+.nature-header {
+  background-color: #0a8a0f;
+}
+.space-header {
+  background-color: #a06c00;
+}
+.world-header {
+  background-color: #be01fa;
+}
+.body-header {
+  background-color: #006aff;
+}
+.trivia-header {
+  background-color: #c85200;
+}
+.flw-header {
+  background-color: #5F5FFA;
+}
+.win-header {
+  background-color: #0f827d;
+}
+.jodi-header {
+  background-color: #3CD8FE;
+}
+.pan-header {
+  background-color: #2d76c8;
+}
+.krieg-header {
+  background-color: #be4c87;
+}
+.bonus-header {
+  background-color: #959595;
+}
+.nature {
+  background-color: #0a8a0f;
+}
+.space {
+  background-color: #a06c00;
+}
+.world {
+  background-color: #be01fa;
+}
+.body {
+  background-color: #006aff;
+}
+.trivia {
+  background-color: #c85200;
+}
+.flw {
+  background-color: #5F5FFA;
+}
+.win {
+  background-color: #0f827d;
+}
+.jodi {
+  background-color: #3CD8FE;
+}
+.pan {
+  background-color: #2d76c8;
+}
+.krieg {
+  background-color: #be4c87;
+}
+.bonus {
+  background-color: #959595;
+}
+.facts {
+  width: 80%;
+  margin: 0 auto;
+  border-spacing: 5px;
+  counter-reset: row-num;
+}
+.facts tr {
+  counter-increment: row-num;
+}
+.facts tr td:first-child::before {
+    content: counter(row-num) ": ";
+}
+a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.outro a {
+  color: #000000;
+  font-weight: bold;
+}
+.linkhead {
+  color: #000000;
+  font-weight: bold;
+}
+.aside {
+  font-size: small;
+}

@@ -9,77 +9,8 @@
 
   gtag('config', 'UA-136684222-4');
 </script>
-<style>
-table {
-  font-size: medium;
-}
-td {
-  color: #000000;
-  padding: 10px;
-  text-align: center;
-}
-.jodi {
-  background-color: #3CD8FE;
-}
-.krieg {
-  background-color: #be4c87;
-}
-.win {
-  background-color: #0f827d;
-}
-.space {
-  background-color: #a06c00;
-}
-.nature {
-  background-color: #0a8a0f;
-}
-.body {
-  background-color: #006aff;
-}
-.world {
-  background-color: #be01fa;
-}
-.trivia {
-  background-color: #c85200;
-}
-.pan {
-  background-color: #2d76c8;
-}
-.bonus {
-  background-color: #959595;
-}
-.flw {
-  background-color: #5F5FFA;
-}
-.facts {
-  width: 80%;
-  margin: 0 auto;
-  border-spacing: 5px;
-  counter-reset: row-num;
-}
-.facts tr {
-  counter-increment: row-num;
-}
-.facts tr td:first-child::before {
-    content: counter(row-num) ": ";
-}
-a {
-  color: #ffffff;
-  font-weight: bold;
-}
-.outro a {
-  color: #000000;
-  font-weight: bold;
-}
-.linkhead {
-  color: #000000;
-  font-weight: bold;
-}
-.aside {
-  font-size: small;
-}
-</style>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="facts.css" />
 <title>eipfacts</title>
 <meta name="description" content="i like to know cool stuff about animals, the world, humans and the universe. now you can too.">
 <meta name="author" content="eip & friends">
@@ -96,27 +27,27 @@ a {
 <span class="intro">
 <table>
 <tr>
-	<td class="nature">facts about flora, fauna, nature and natural phenomena are green. (<span id="naturecount"><noscript>JS disabled!</noscript></span>)</td>
-	<td class="space">facts about space are dead gold. (<span id="spacecount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="nature-header">facts about flora, fauna, nature and natural phenomena are green. (<span id="naturecount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="space-header">facts about space are dead gold. (<span id="spacecount"><noscript>JS disabled!</noscript></span>)</td>
 
 </tr>
 <tr>
-	<td class="world">facts about humanity, history and the world are fuschia. (<span id="worldcount"><noscript>JS disabled!</noscript></span>)</td>
-	<td class="body">facts about medicine, chemicals and the human body are blue. (<span id="bodycount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="world-header">facts about humanity, history and the world are fuschia. (<span id="worldcount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="body-header">facts about medicine, chemicals and the human body are blue. (<span id="bodycount"><noscript>JS disabled!</noscript></span>)</td>
 
 
 </tr>
 <tr>
-	<td class="trivia">random, trivial facts about humanity and the world are orange. (<span id="triviacount"><noscript>JS disabled!</noscript></span>)</td>
-	<td class="flw">cool or notable 'famous last words' are indigo. (<span id="flwcount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="trivia-header">random, trivial facts about humanity and the world are orange. (<span id="triviacount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="flw-header">cool or notable 'famous last words' are indigo. (<span id="flwcount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
 <tr>
-	<td class="win">facts from win are teal. (<span id="wincount"><noscript>JS disabled!</noscript></span>)</td>
-	<td class="jodi">facts from jodi are cyan. (<span id="jodicount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="win-header">facts from win are teal. (<span id="wincount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="jodi-header">facts from jodi are cyan. (<span id="jodicount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
 <tr>
-	<td class="pan">facts from pan are gunmetal cobalt. (<span id="pancount"><noscript>JS disabled!</noscript></span>)</td>
-	<td class="krieg">facts from krieg are salmon. (<span id="kriegcount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="pan-header">facts from pan are gunmetal cobalt. (<span id="pancount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="krieg-header">facts from krieg are salmon. (<span id="kriegcount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
 </table>
 </span>
