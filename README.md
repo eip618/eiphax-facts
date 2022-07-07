@@ -1,7 +1,7 @@
 # eiphax-facts
 a ramshackle collection of useless facts because the world is cool and so are you
 # contributing
-feel free to open a pull request (or an issue if you are lazy)
+feel free to open a pull request (or an issue if you are lazy). facts must have a source or citation. the more reliable/scholarly the better
 ## templates
 in the index, at the bottom, are some comments in which you can find some templates. also, if you intend to contribute a reasonable amount, you should also select a colour for yourself from the linked colour table.
 ## colours
