@@ -24,6 +24,9 @@ td {
 .flw-header {
   background-color: #5F5FFA;
 }
+.people-header {
+  background-color: #B2602A;
+}
 .win-header {
   background-color: #0f827d;
 }
@@ -56,6 +59,9 @@ td {
 }
 .flw {
   background-color: #5F5FFA;
+}
+.people {
+  background-color: #B2602A;
 }
 .win {
   background-color: #0f827d;
