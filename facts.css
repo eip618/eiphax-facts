@@ -1,8 +1,13 @@
+body {
+  background-color: #949494;
+  color: #ebebeb;
+}
 table {
   font-size: medium;
+  border-spacing: 7.5px;
 }
 td {
-  color: #000000;
+  color: #ebebeb;
   padding: 10px;
   text-align: center;
 }
@@ -31,7 +36,7 @@ td {
   background-color: #0f827d;
 }
 .jodi-header {
-  background-color: #3CD8FE;
+  background-color: #00a8ad;
 }
 .pan-header {
   background-color: #2d76c8;
@@ -40,7 +45,7 @@ td {
   background-color: #be4c87;
 }
 .bonus-header {
-  background-color: #959595;
+  background-color: #545454;
 }
 .nature {
   background-color: #0a8a0f;
@@ -67,7 +72,7 @@ td {
   background-color: #0f827d;
 }
 .jodi {
-  background-color: #3CD8FE;
+  background-color: #00a8ad;
 }
 .pan {
   background-color: #2d76c8;
@@ -76,7 +81,7 @@ td {
   background-color: #be4c87;
 }
 .bonus {
-  background-color: #959595;
+  background-color: #545454;
 }
 .meme {
   background-color: #786F9B;
@@ -84,7 +89,6 @@ td {
 .facts {
   width: 80%;
   margin: 0 auto;
-  border-spacing: 5px;
   counter-reset: row-num;
 }
 .facts tr {
