@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>eipfacts</title>
+<link>https://facts.eiphax.tech</link>
+<description>cool facts about stuff</description>
+<lastBuildDate>Wed, 14 Sep 2022</lastBuildDate>
+<item>
+<title>7 new facts have been posted</title>
+<link>https://facts.eiphax.tech/#bottom</link>
+<guid>facts14sep</guid>
+<pubDate>Wed, 14 Sep 2022 12:52:00 GMT</pubDate>
+<description>including nature, trivia</description>
+</item>
+</channel>
+</rss>
