@@ -4,7 +4,14 @@
 <title>eipfacts</title>
 <link>https://facts.eiphax.tech</link>
 <description>cool facts about stuff</description>
-<lastBuildDate>Sun, 9 Oct 2022</lastBuildDate>
+<lastBuildDate>Mon, 10 Oct 2022</lastBuildDate>
+<item>
+<title>a nature fact bomb has been posted</title>
+<link>https://facts.eiphax.tech/#bottom</link>
+<guid>facts10oct</guid>
+<pubDate>Mon, 10 Oct 2022 05:12:00 GMT</pubDate>
+<description>five nature facts</description>
+</item>
 <item>
 <title>2 new facts have been posted</title>
 <link>https://facts.eiphax.tech/#bottom</link>
@@ -39,13 +46,6 @@
 <guid>facts26sep</guid>
 <pubDate>Sun, 26 Sep 2022 10:10:00 GMT</pubDate>
 <description>trivia</description>
-</item>
-<item>
-<title>a nature fact bomb has been posted</title>
-<link>https://facts.eiphax.tech/#bottom</link>
-<guid>facts20sep</guid>
-<pubDate>Tue, 20 Sep 2022 12:48:00 GMT</pubDate>
-<description>five nature facts</description>
 </item>
 </channel>
 </rss>
