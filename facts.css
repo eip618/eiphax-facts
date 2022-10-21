@@ -45,6 +45,9 @@ td {
 .krieg-header {
   background-color: #be4c87;
 }
+.sammie-header {
+  background-color: #5a7e5f;
+}
 .bonus-header {
   background-color: #545454;
 }
@@ -81,6 +84,9 @@ td {
 .krieg {
   background-color: #be4c87;
 }
+.sammie {
+  background-color: #5a7e5f;
+}
 .bonus {
   background-color: #545454;
 }
@@ -101,6 +107,18 @@ td {
 .testimonials {
   display: flex;
   width: 80%;
+  justify-content: space-evenly;
+}
+.testimonials tr {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tintro {
+  display: flex;
+  justify-content: center;
+}
+.tintro .middle {
+  display: flex;
   justify-content: space-evenly;
 }
 a {
