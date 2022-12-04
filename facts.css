@@ -12,6 +12,10 @@ td {
   text-align: center;
   line-height: 125%;
 }
+.container60 {
+  width: 60%;
+  margin: auto;
+}
 .nature-header {
   background-color: #0a8a0f;
 }
