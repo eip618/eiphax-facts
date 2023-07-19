@@ -103,6 +103,12 @@ td {
 .records {
   background-color: #be44a5;
 }
+.black {
+  background-color: #000000;
+}
+.braingrey {
+  background-color: #16161D;
+}
 .facts {
   width: 80%;
   margin: 0 auto;
