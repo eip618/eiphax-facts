@@ -171,3 +171,21 @@ a {
   initial-value: 0deg;
   inherits: false;
 }
+
+.card-flash {
+  animation: glowing 1300ms 6;
+}
+@keyframes glowing {
+        0% {
+          background-color: #ee5f5b;
+          box-shadow: 0 0 5px #ee5f5b;
+        }
+        50% {
+          background-color: #fd7675;
+          box-shadow: 0 0 20px #fd7675;
+        }
+        100% {
+          background-color: #ee5f5b;
+          box-shadow: 0 0 5px #ee5f5b;
+        }
+      }
