@@ -10,25 +10,6 @@
 
   gtag('config', 'UA-136684222-4');
 </script>
-<script>
-  // Get the table with the class name 'facts'
-  const table = document.querySelector('.facts');
-
-  // Get all the <td> elements inside the table
-  const tdElements = table.querySelectorAll('td');
-
-  // Loop through each <td> element and add the id attribute
-  tdElements.forEach((td, index) => {
-    const idValue = 0 + index; // Calculate the id value
-    td.setAttribute('id', idValue); // Set the id attribute
-  });
-
-  // Generate the modified HTML for the table
-  const modifiedHTML = table.outerHTML;
-
-  // Replace the content of the element with the modified table HTML
-  table.outerHTML = modifiedHTML;
-</script>
 <!-- Primary Meta Tags -->
 <title>welcome to eipfax!</title>
 <meta name="title" content="welcome to eipfax!">
@@ -496,6 +477,25 @@
   <tr><td class="trivia fact">Johnny Cash's famous song about a boy named Sue, where a young man is named Sue by his father in order to make his life hard so he gets tough, might or might not have been inspired by renowned lawyer and judge <a href="https://en.wikipedia.org/wiki/Sue_K._Hicks">Sue K. Hicks</a>.
 							<br><span class="aside">Johnny only took the name for inspiration; Hicks' life story is very different to Cash's character's story.</span></td></tr>
 </table>
+<script>
+  // Get the table with the class name 'facts'
+  const table = document.querySelector('.facts');
+
+  // Get all the <td> elements inside the table
+  const tdElements = table.querySelectorAll('td');
+
+  // Loop through each <td> element and add the id attribute
+  tdElements.forEach((td, index) => {
+    const idValue = 0 + index; // Calculate the id value
+    td.setAttribute('id', idValue); // Set the id attribute
+  });
+
+  // Generate the modified HTML for the table
+  const modifiedHTML = table.outerHTML;
+
+  // Replace the content of the element with the modified table HTML
+  table.outerHTML = modifiedHTML;
+</script>
 <center>
 <span class="outro">
 <p id="bottom">also here's a <a href="https://eiphax.tech/privacy" target="_blank">privacy policy</a>
