@@ -11,14 +11,23 @@
   gtag('config', 'UA-136684222-4');
 </script>
 <script>
-  // Get all the <td> elements inside the <table>
-  const tdElements = document.querySelectorAll('table td');
+  // Get the table with the class name 'facts'
+  const table = document.querySelector('.facts');
+
+  // Get all the <td> elements inside the table
+  const tdElements = table.querySelectorAll('td');
 
   // Loop through each <td> element and add the id attribute
   tdElements.forEach((td, index) => {
     const idValue = 0 + index; // Calculate the id value
     td.setAttribute('id', idValue); // Set the id attribute
   });
+
+  // Generate the modified HTML for the table
+  const modifiedHTML = table.outerHTML;
+
+  // Replace the content of the element with the modified table HTML
+  table.outerHTML = modifiedHTML;
 </script>
 <!-- Primary Meta Tags -->
 <title>welcome to eipfax!</title>
