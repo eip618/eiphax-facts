@@ -177,15 +177,15 @@ a {
 }
 @keyframes glowing {
         0% {
-          background-color: #d9d9d9;
-          box-shadow: 0 0 5px #d9d9d9d;
+          background-color: #inherit;
+          box-shadow: 0 0 5px #inherit;
         }
         50% {
           background-color: #404040;
           box-shadow: 0 0 20px #404040;
         }
         100% {
-          background-color: #d9d9d9;
-          box-shadow: 0 0 5px #d9d9d9;
+          background-color: #inherit;
+          box-shadow: 0 0 5px #inherit;
         }
       }
