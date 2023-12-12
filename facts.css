@@ -150,7 +150,7 @@ a {
   font-weight: bold;
 }
 .aside {
-  font-size: small;
+  font-size: smaller;
 }
 .milestone {
   --angle: 0deg;
