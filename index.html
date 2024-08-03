@@ -610,7 +610,16 @@
 <p>bye</p></span>
 </center>
 <script>
-document.getElementById("factscount").innerHTML = document.getElementsByClassName("fact").length
+document.addEventListener("DOMContentLoaded", function() {
+    const facts = document.getElementsByClassName("fact");
+    console.log('Facts count:', facts.length);
+    for (let i = 0; i < facts.length; i++) {
+        console.log(`Fact ${i + 1}:`, facts[i].innerHTML);
+    }
+    document.getElementById("factscount").innerHTML = facts.length;
+});
+</script>
+<script>
 document.getElementById("naturecount").innerHTML = document.getElementsByClassName("nature").length
 document.getElementById("spacecount").innerHTML = document.getElementsByClassName("space").length
 document.getElementById("worldcount").innerHTML = document.getElementsByClassName("world").length
