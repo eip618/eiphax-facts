@@ -549,6 +549,13 @@
   <tr><td class="body fact">bending at the waist and bracing with your hands on your knees or thighs, as people instinctively want to do when out of breath, is actually <a href="https://www.hw.com/Portals/1/ISSSM/2016TheEffectofArmandBodyPositiononRespiratoryVentilation.pdf">the optimal position</a> for breath recovery.</td></tr>
   <tr><td class="records fact">Hongyancun station, in China, is <a href="https://en.wikipedia.org/wiki/Hongyancun_station">the deepest metro station in the world</a>.</td></tr>
   <tr><td class="people fact">Mark Twain was born during a year in which Halley's Comet made a pass around Earth. he also <a href="https://www.snopes.com/fact-check/mark-twain-halleys-comet/">died during such a year</a>.</td></tr>
+  <tr><td class="records fact">the country of Bhutan has the <a href="https://en.wikipedia.org/wiki/List_of_countries_by_average_elevation">highest average elevation</a>.</td></tr>
+  <tr><td class="trivia fact">an explosion at 07:25pm at the West Side Baptist Church in Beatrice, Nebraska would have killed up to 15 people, had they not <a href="https://www.snopes.com/fact-check/choir-non-quorum/">all been running late</a> for a myriad of separate reasons.</td></tr>
+  <tr><td class="people fact">Nicholas Alkemade, during World War 2, survived a <a href="https://www.rafmuseum.org.uk/blog/the-indestructible-alkemade/">5,490m freefall</a> without a parachute and received only minor injuries.</td></tr>
+  <tr><td class="people fact">bonus: after returning home, he also survived: a severe electric shock which led to inhalation of toxic fumes, being sprayed with industrial-grade sulphuric acid, and being pinned under a massive steel door runner, all with minor injuries too.</td></tr>
+  <tr><td class="people fact">Michael Malloy survived no less than <a href="https://en.wikipedia.org/wiki/Michael_Malloy">9 separate failed murder attempts</a> by 5 conspirators attempting to collect on a fraudulent life insurance policy.</td></tr>
+  <tr><td class="people fact">Edwin Booth, son of John Wilkes Booth (Abraham Lincoln's assassin), <a href="https://www.snopes.com/fact-check/john-wilkes-booth-brother-abraham-lincoln-son/">saved the life of Robert Todd Lincoln</a>, Abraham Lincoln's son.</td></tr>
+  <tr><td class="records fact">the explosion of Krakatoa is thought to have reached 310 decibels, which makes it <a href="https://www.classicfm.com/discover-music/loudest-recorded-sound-krakatoa-volcano/">the loudest sound in recorded history</a>.</td></tr>
 </table>
 <script>
   // Large portions of this ID-adding code are credit to ChatGPT version 3.5
@@ -610,16 +617,7 @@
 <p>bye</p></span>
 </center>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    const facts = document.getElementsByClassName("fact");
-    console.log('Facts count:', facts.length);
-    for (let i = 0; i < facts.length; i++) {
-        console.log(`Fact ${i + 1}:`, facts[i].innerHTML);
-    }
-    document.getElementById("factscount").innerHTML = facts.length;
-});
-</script>
-<script>
+document.getElementById("factscount").innerHTML = document.getElementsByClassName("fact").length
 document.getElementById("naturecount").innerHTML = document.getElementsByClassName("nature").length
 document.getElementById("spacecount").innerHTML = document.getElementsByClassName("space").length
 document.getElementById("worldcount").innerHTML = document.getElementsByClassName("world").length
@@ -636,6 +634,10 @@ document.getElementById("recordscount").innerHTML = document.getElementsByClassN
 </script>
 </body>
 <!--
+  FAC TEMPLATE
+  <tr><td class=" fact">Fact here. Link <a href="">here</a>.</td></tr>
+  BONUS TEMPLATE
+  bonuses should no longer be inside the same <td> element due to counting
   COLOUR CHART
   https://web.archive.org/web/20160214165231/trace.wisc.edu/contrast-ratio-examples/PassingMidColorSamples_4-5to1.htm
   MULTI CITE
