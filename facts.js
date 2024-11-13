@@ -6,9 +6,6 @@
   tdElements.forEach((td, index) => {
     td.setAttribute('id', index + 1);
   });
-  const modifiedHTML = table.outerHTML;
-
-  table.outerHTML = modifiedHTML;
 
   // random fact button guts
   document.getElementById("random-fact-button").addEventListener("click", function() {

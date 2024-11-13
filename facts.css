@@ -117,8 +117,6 @@ td {
 .facts tr {
   counter-increment: row-num;
 }
-.facts tr td:first-child::before {
-    content: counter(row-num) ": ";
 }
 .testimonials {
   display: flex;
