@@ -39,3 +39,8 @@ document.getElementById("pancount").innerHTML = document.getElementsByClassName(
 document.getElementById("kriegcount").innerHTML = document.getElementsByClassName("krieg").length
 document.getElementById("sammiecount").innerHTML = document.getElementsByClassName("sammie").length
 document.getElementById("recordscount").innerHTML = document.getElementsByClassName("records").length
+ // lastModified
+  const el = document.getElementById('last-modified');
+  if (el && document.lastModified) {
+    el.textContent = new Date(document.lastModified).toLocaleString();
+  }
