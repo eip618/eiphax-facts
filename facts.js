@@ -1,11 +1,16 @@
-  // add ID class for anchor linking
-  const table = document.querySelector('.facts');
+  // add anchor IDs for hotlinking
 
-  const tdElements = table.querySelectorAll('td');
+const table = document.querySelector('.facts');
+const tdElements = table.querySelectorAll('td');
 
-  tdElements.forEach((td, index) => {
-    td.setAttribute('id', index + 1);
-  });
+let counter = 1;
+
+tdElements.forEach(td => {
+  if (td.classList.contains('meme')) return;
+
+  td.id = counter;
+  counter += 1;
+});
 
   // random fact button guts
   document.getElementById("random-fact-button").addEventListener("click", function() {
