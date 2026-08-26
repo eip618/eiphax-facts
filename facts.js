@@ -49,3 +49,19 @@ document.getElementById("recordscount").innerHTML = document.getElementsByClassN
   if (el && document.lastModified) {
     el.textContent = new Date(document.lastModified).toLocaleString();
   }
+
+  // Number of facts requested through daifuku's .fact command.
+  const daifukuFactRequests = document.getElementById('daifuku-fact-requests');
+  if (daifukuFactRequests) {
+    fetch('https://counterapi.com/api/facts.eiphax.tech/discord-fact/request?readOnly=true')
+      .then(response => {
+        if (!response.ok) throw new Error(`counter returned ${response.status}`);
+        return response.json();
+      })
+      .then(data => {
+        daifukuFactRequests.textContent = Number(data.value).toLocaleString();
+      })
+      .catch(() => {
+        daifukuFactRequests.textContent = 'unavailable';
+      });
+  }
